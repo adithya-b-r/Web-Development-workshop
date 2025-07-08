@@ -1,6 +1,7 @@
 ## **Introduction to Web Development**
 
-- Requirements vs. Reality in 2025
+- What is Web Development?
+- Stages in Web Development
 - How Websites Are Actually Designed
 - How Developers View a Website
 - Introduction to Tailwind CSS: Why Use It?
