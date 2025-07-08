@@ -48,6 +48,7 @@
 | `w-full`   | 100% width          |
 | `w-screen` | Full screen width   |
 | `h-16`     | Fixed height (4rem) |
+| `h-[10%]`  | Custom height value |
 | `h-screen` | Full screen height  |
 
 ---
