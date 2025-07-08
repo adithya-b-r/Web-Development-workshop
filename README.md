@@ -1,6 +1,6 @@
-Basic setup with TailwindCSS and VSCode settings.
+## Basic setup with TailwindCSS and VSCode settings.
 
-## .vscode/settings.json
+### .vscode/settings.json
 
 ```json
 {
@@ -16,7 +16,7 @@ Basic setup with TailwindCSS and VSCode settings.
 }
 ```
 
-## tailwind.config.js
+### tailwind.config.js
 
 ```js
 module.exports = {
