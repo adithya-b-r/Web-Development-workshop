@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Learning TailwindCSS</title>
+</head>
+
+<body>
+  <nav class="w-full h-16 bg-blue-500 flex items-center justify-between px-8 fixed">
+    <h3 class="font-bold text-xl text-white">Adithya B R</h3>
+
+    <div class="flex gap-10 text-lg font-semibold text-white [&>a:hover]:text-orange-300 [&>a]:duration-300 font">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home" class="w-full h-screen bg-orange-400 flex justify-center items-center text-white font-extrabold text-4xl">
+    Home
+  </section>
+
+  <section id="about" class="w-full h-screen bg-purple-500 flex justify-center items-center text-white font-extrabold text-4xl">
+    About
+  </section>
+
+  <section id="services" class="w-full h-screen bg-pink-500 flex justify-center items-center text-white font-extrabold text-4xl">
+    Services
+  </section>
+
+  <section id="contact" class="w-full h-56 bg-black flex justify-center items-center text-white font-extrabold text-4xl">
+    Contact
+  </section>
+</body>
+
+</html>
