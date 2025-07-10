@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <title>ToDo List</title>
+
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-300 to-purple-300">
+  <main class="md:w-[40%] h-screen mx-auto flex justify-center items-center">
+
+    <!-- Todo App Container -->
+    <div class="w-[90%] h-[80vh] shadow-2xl bg-white rounded-xl border-2 border-gray-200 overflow-hidden">
+      <h3 class="text-center text-2xl font-bold my-6 text-gray-700">Todo App</h3>
+
+      <!-- Input and Button -->
+      <div class="w-full flex gap-2 px-4">
+        <input id="taskInput" type="text" class="border-2 border-gray-500 py-2 w-full px-2 rounded-md">
+
+        <button onclick="add()" class="bg-blue-500 px-3 py-2 rounded-md text-white font-semibold">Add</button>
+      </div>
+
+      <!-- Task Container -->
+      <div id="taskContainer"
+        class="w-full flex-1 flex flex-col gap-2 my-4 px-4 [&>div]:rounded-lg overflow-y-auto max-h-[calc(80vh-150px)]">
+          <p class="text-center text-gray-400">No tasks added yet.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
