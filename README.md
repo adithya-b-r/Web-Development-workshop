@@ -3,7 +3,7 @@
 ### Tailwind CDN
 
 ```html
-<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 ```
 
 ### .vscode/settings.json
