@@ -1,5 +1,3 @@
-
-
 ### Tailwind CDN
 
 ```html

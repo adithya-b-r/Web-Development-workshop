@@ -69,6 +69,5 @@ const taskDone = (taskId) => {
   task_p.classList.toggle("line-through")
 
   // console.log(task_p);
-
   // console.log(taskId);
 }
