@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    ::-webkit-scrollbar{
+      display: none;
+    }
+  </style>
+
+  <title>Image Gallery</title>
+</head>
+<body>
+  <h1 class="text-center text-3xl font-bold my-6 text-black">Image Gallery</h1>
+
+  <div class="bg-gray-300 h-fit flex items-center justify-center gap-5 py-3 w-[60%] mx-auto rounded-md border-2 border-black">
+    <label class="text-gray-800 font-semibold">Page</label>
+    <input id="page" type="number" min="1" class="px-2">
+
+    <label class="text-gray-800 font-semibold">Limit</label>
+    <input id="limit" type="number" min="1" class="px-2">
+
+    <button onclick="fetchImage()" class="bg-blue-600 px-2 py-1 text-white rounded-md">Load Images</button>
+  </div>
+
+  <!-- Image Container -->
+  <div id="imgContainer" class="w-full h-[75vh] flex flex-wrap overflow-scroll p-1 gap-1 my-2">
+    
+    <p class="text-center m-auto">No images yet...</p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
